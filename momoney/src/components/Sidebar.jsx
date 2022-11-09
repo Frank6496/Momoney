@@ -3,12 +3,12 @@ import './../App.css';
 
 function Sidebar() {
 
-    $(document).ready(function () {
-        $('#sidebarCollapse').on('click', function () {
-            $('#sidebar').toggleClass('active');
-            $(this).toggleClass('active');
-        });
-    });
+    // $(document).ready(function () {
+    //     $('#sidebarCollapse').on('click', function () {
+    //         $('#sidebar').toggleClass('active');
+    //         $(this).toggleClass('active');
+    //     });
+    // });
 
   return (
     <nav class="navbar navbar-expand-lg  navbar navbar-dark bg-dark">
@@ -18,10 +18,10 @@ function Sidebar() {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only"></span></a>
-            <a class="nav-item nav-link" href="#">Deposit Funds</a>
-            <a class="nav-item nav-link" href="#">Transfer funds</a>
-            <a class="nav-item nav-link" href="#">Logout</a>
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only"></span></a>
+                <a class="nav-item nav-link" href="#">Deposit Funds</a>
+                <a class="nav-item nav-link" href="#">Transfer funds</a>
+                <a class="nav-item nav-link" href="#">Logout</a>
             </div>
         </div>
     </nav>
